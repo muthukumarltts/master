@@ -1,0 +1,492 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Configuration",
+    "line": 1,
+    "id": "configuration",
+    "tags": [],
+    "uri": "Configuration.feature",
+    "elements": [
+      {
+        "id": "configuration;set-alarm-range-and-generate-alarm",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Set Alarm Range And Generate Alarm",
+        "tags": [
+          {
+            "name": "@Configuration",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I click on Configuration Section of svb5 System Manager",
+            "result": {
+              "status": "passed",
+              "duration": 38502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I navigate to Alarm in Configuration Section",
+            "result": {
+              "status": "passed",
+              "duration": 5684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I navigate to Service in Alarm Section of Configuration",
+            "result": {
+              "status": "passed",
+              "duration": 5591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set Alarm Range as Critical",
+            "result": {
+              "status": "passed",
+              "duration": 1658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I generate the Test Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 5577000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "configuration;verify-the-active-alarm-and-acknowledge-alarm",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify the Active Alarm and Acknowledge Alarm",
+        "tags": [
+          {
+            "name": "@Active",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I click on Alarms Section of svb5 System Manager",
+            "result": {
+              "status": "passed",
+              "duration": 20552000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on Device AK-SM880A in Active Alarms",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I verify the Description as Test Alarm in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I verify the Point as AK-SM880A in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I verify the Address as 0 in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 129000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I verify the Setting as Alarm if ON in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I verify the Current Value as Trip in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I verify the Occured Time in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I verify the Acknowledge Status as No in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I verify the AlarmLevel as Critical in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I verify the AlarmAction as 1 in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I click on Acknowledge the Alarm in Information window of Active Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 985000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "configuration;verify-the-acknowlegde-alarm",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verify the Acknowlegde Alarm",
+        "tags": [
+          {
+            "name": "@Acknowledge",
+            "line": 26
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I click on Acknowledge Alarm Section of svb5 System Manager",
+            "result": {
+              "status": "passed",
+              "duration": 6235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I click on Device AK-SM880A in Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "I verify the Description as Test Alarm in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I verify the Point as AK-SM880A in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I verify the Address as 0 in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I verify the Setting as Alarm if ON in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I verify the Current Value as Trip in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I verify the Occured Time in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I verify the Acknowledge Status as Yes in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I verify the AlarmLevel as Critical in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "I verify the AlarmAction as 1 in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "I click on close button in Information window of Acknowledge Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "configuration;verify-the-cleared-alarm",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Verify the Cleared Alarm",
+        "tags": [
+          {
+            "name": "@Clear",
+            "line": 41
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "I click on Cleared Alarm Section Section of svb5 System Manager",
+            "result": {
+              "status": "passed",
+              "duration": 66115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I click Device AK-SM880A in Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I verify Description as Test Alarm in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I verify Point as AK-SM880A in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I verify Address as 0 in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I verify Setting as Alarm if ON in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I verify Current Value as Trip in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I verify Occured Time in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I verify Acknowledge Status as Yes in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I verify the ClearedTime in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "I verify the AlarmLevel as Critical in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I verify the AlarmAction as 1 in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I click on close button in Information window of Cleared Alarm",
+            "result": {
+              "status": "passed",
+              "duration": 824000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
