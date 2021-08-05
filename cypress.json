@@ -1,0 +1,9 @@
+{
+  "defaultCommandTimeout":15000,
+  "testFiles": "**/*.feature",
+  "reporter": "mochawesome",
+  "projectId": "yz7vt6",
+  "retries": {
+    "runMode": 1
+  }
+}
